@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Visualizer – Real-time Canvas Emotion Detector</title>
+
+    <!-- ✅ SEO Meta Description -->
+    <meta name="description"
+        content="Experience real-time mood visualization on canvas. Enter your emotions and watch them come alive through dynamic, artistic animations. A powerful blend of psychology, creativity, and code.">
+
+    <!-- ✅ Keywords (optional but SEO-friendly) -->
+    <meta name="keywords"
+        content="mood visualizer, emotion detection, canvas animation, JavaScript art, mental health, creative project, real-time animation, mood tracker">
+
+    <!-- ✅ Author -->
+    <meta name="author" content="Piyush - Engineering Student & Creative Developer">
+
+    <!-- ✅ Best Practices & SEO: Robots & Theme -->
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- ✅ Open Graph for Social Media Sharing (Facebook, LinkedIn etc.) -->
+    <meta property="og:title" content="Mood Visualizer – Real-time Canvas Emotion Detector" />
+    <meta property="og:description"
+        content="Enter your mood and let it paint the canvas. Real-time emotion-based animations for calm, angry, happy, sad, romantic and more moods." />
+    <meta property="og:image" content="https://yourdomain.com/preview.png" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- ✅ Twitter Card Preview -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mood Visualizer – Real-time Emotion Detection" />
+    <meta name="twitter:description"
+        content="Watch your emotions come alive on screen through mood-based animations. Try it now!" />
+    <meta name="twitter:image" content="https://yourdomain.com/preview.png" />
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- ✅ External Styles -->
+    <link rel="stylesheet" href="main.css" />
+</head>
+  
+
+<body>
+    <canvas id="mindCanvas"></canvas>
+
+    <div id="container">
+        <div class="mood-input">
+            <label for="inputMood" class="text-xl font-semibold">How are you feeling?</label>
+            <input id="inputMood" type="text" placeholder="Enter your mood...">
+        </div>
+
+        <div id="moodDisplay">
+            <div class="text-lg">Detected Emotion:</div>
+            <div class="text-3xl font-bold" id="detectedMood">Neutral</div>
+            <div class="text-lg mt-2" id="visualDescription">Subtle Static</div>
+        </div>
+    </div>
+
+    <div class="instructions">
+        Try words like: angry, sad, happy, calm, confused, romantic, thoughtful, motivated, creative
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
