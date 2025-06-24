@@ -3,7 +3,7 @@ const canvas = document.getElementById('mindCanvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-const fromStartPage = document.referrer.includes("start.html");
+const fromStartPage = document.referrer.includes("index.html");
 
 if (fromStartPage) {
   document.body.classList.add("fade-in");
